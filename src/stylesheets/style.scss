@@ -1,0 +1,112 @@
+$logo-pink: #E1386C;
+$pinterest-red: #F0002A;
+$netflix-red: #D81F26;
+$gmail-red: #BB001B;
+$logo-gold: #FFB900;
+$snapchat-yellow: #FFFC00;
+$spotify-green: #1DB954;
+$github-green: #2EA44f;
+$tiktok-turq: #69C9D0;
+$twitter-blue: #1DA1F2;
+$facebook-blue: #1778F2;
+$linkedin-blue: #2867B2;
+$logo-purple: #9A00FF;
+$spotify-black: #191414;
+
+$black: #191414;
+$red: #D81F26;
+$dark-red: #BB001B;
+$green: #2EA44f;
+$blue: #2867B2;
+$purple: #482cff;
+
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #fff;
+  color: $black;
+}
+
+#logo img {
+  width: 48px;
+  height: 48px;
+}
+
+#main-header {
+  background-color: rgb(124, 101, 101);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 3em;
+}
+
+i {
+  font-size: 2em;
+}
+
+.project {
+  box-shadow: 0 1px 6px 0 rgba(60,64,67,0.2), 0 1px 12px 4px rgba(60,64,67,0.1);
+}
+
+a[href*='.pdf']:hover {
+  color: $red;
+}
+
+a[href*='linkedin']:hover {
+  color: $blue;
+}
+
+a[href*='angel']:hover {
+  color: rgb(99, 99, 99);
+}
+
+a[href*='github']:hover {
+  color: $green;
+}
+
+a[href*='gmail']:hover {
+  color: $dark-red;
+}
+
+// Bootstrap customize
+.navbar-light {
+  .navbar-nav {
+
+    :not(:last-child) {
+      padding: 0 1rem;
+    }
+
+    .nav-link {
+     color: $black;
+     transition: all 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: $purple;
+    }
+  }  
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+a {
+  color: $black;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: $purple;
+  text-decoration: none;
+}
+
+@media only screen and (min-width : 1200px) {
+    .container { max-width: 1500px; }
+}

@@ -1,0 +1,65 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background: #fff;
+  color: #191414; }
+
+#logo img {
+  width: 48px;
+  height: 48px; }
+
+#main-header {
+  background-color: #7c6565; }
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em; }
+
+h2 {
+  font-weight: 500;
+  font-size: 3em; }
+
+i {
+  font-size: 2em; }
+
+.project {
+  box-shadow: 0 1px 6px 0 rgba(60, 64, 67, 0.2), 0 1px 12px 4px rgba(60, 64, 67, 0.1); }
+
+a[href*='.pdf']:hover {
+  color: #D81F26; }
+
+a[href*='linkedin']:hover {
+  color: #2867B2; }
+
+a[href*='angel']:hover {
+  color: #636363; }
+
+a[href*='github']:hover {
+  color: #2EA44f; }
+
+a[href*='gmail']:hover {
+  color: #BB001B; }
+
+.navbar-light .navbar-nav :not(:last-child) {
+  padding: 0 1rem; }
+.navbar-light .navbar-nav .nav-link {
+  color: #191414;
+  transition: all 0.3s ease; }
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #482cff; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+a {
+  color: #191414;
+  transition: all 0.3s ease; }
+
+a:hover {
+  color: #482cff;
+  text-decoration: none; }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1500px; } }
+
+/*# sourceMappingURL=style.css.map */
