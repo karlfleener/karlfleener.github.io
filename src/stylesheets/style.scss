@@ -25,6 +25,8 @@ body {
   font-family: "Nunito", sans-serif;
   background: #fff;
   color: $black;
+  padding-top: 74px;
+  font-size: 1em;
 }
 
 #logo img {
@@ -33,7 +35,12 @@ body {
 }
 
 #main-header {
-  background-color: rgb(124, 101, 101);
+  background-color: #fff;
+}
+
+.nav-shadow {
+  box-shadow: 0 1px 6px 0 rgba(60,64,67,0.2), 0 1px 12px 4px rgba(60,64,67,0.1);
+  transition: all 0.5s ease;
 }
 
 h1 {
@@ -46,7 +53,16 @@ h2 {
   font-size: 3em;
 }
 
-i {
+.skills i,
+.skills svg {
+  font-size: 3em;
+}
+
+#about p {
+  font-size: 1.5em;
+}
+
+footer i {
   font-size: 2em;
 }
 
@@ -105,6 +121,7 @@ a {
 a:hover {
   color: $purple;
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media only screen and (min-width : 1200px) {
