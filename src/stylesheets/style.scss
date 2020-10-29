@@ -19,6 +19,7 @@ $dark-red: #BB001B;
 $green: #2EA44f;
 $blue: #2867B2;
 $purple: #482cff;
+$turq: #0075A2;
 
 
 body {
@@ -90,7 +91,7 @@ a[href*='gmail']:hover {
   color: $dark-red;
 }
 
-// Bootstrap customize
+//Bootstrap custom
 .navbar-light {
   .navbar-nav {
 
@@ -104,7 +105,7 @@ a[href*='gmail']:hover {
     }
 
     .nav-link:hover {
-      color: $purple;
+      color: $turq;
     }
   }  
 }
