@@ -54,6 +54,10 @@ h2 {
   font-size: 3em;
 }
 
+// .hero-image {
+//   transform: rotate(-10deg);
+// }
+
 .skills i,
 .skills svg {
   font-size: 3em;
@@ -68,36 +72,33 @@ footer i {
 }
 
 .project {
-  box-shadow: 0 1px 6px 0 rgba(60,64,67,0.2), 0 1px 12px 4px rgba(60,64,67,0.1);
+  // border: 1px solid pink;
+  // box-shadow: 0 1px 6px 0 rgba(60,64,67,0.2), 0 1px 12px 4px rgba(60,64,67,0.1);
 }
 
-a[href*='.pdf']:hover {
-  color: $red;
-}
+// a[href*='.pdf']:hover {
+//   color: $red;
+// }
 
-a[href*='linkedin']:hover {
-  color: $blue;
-}
+// a[href*='linkedin']:hover {
+//   color: $blue;
+// }
 
-a[href*='angel']:hover {
-  color: rgb(99, 99, 99);
-}
+// a[href*='angel']:hover {
+//   color: rgb(99, 99, 99);
+// }
 
-a[href*='github']:hover {
-  color: $green;
-}
+// a[href*='github']:hover {
+//   color: $green;
+// }
 
-a[href*='gmail']:hover {
-  color: $dark-red;
-}
+// a[href*='gmail']:hover {
+//   color: $dark-red;
+// }
 
 //Bootstrap custom
 .navbar-light {
   .navbar-nav {
-
-    :not(:last-child) {
-      padding: 0 1rem;
-    }
 
     .nav-link {
      color: $black;
@@ -108,11 +109,15 @@ a[href*='gmail']:hover {
       color: $turq;
     }
   }  
+  .navbar-toggler {
+    border: none;
+  }
 }
-
 .navbar-toggler:focus {
   outline: none;
 }
+
+
 
 a {
   color: $black;
@@ -120,9 +125,13 @@ a {
 }
 
 a:hover {
-  color: $purple;
+  color: $turq;
   text-decoration: none;
   cursor: pointer;
+}
+
+.card {
+  border: none;
 }
 
 @media only screen and (min-width : 1200px) {

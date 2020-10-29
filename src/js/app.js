@@ -1,3 +1,4 @@
+//smooth scroll to section on nav click
 $('a').click(function() {
     let sectionTo = $(this).attr('href');
     let scrollAmount = sectionTo === '#hero' ? 0 : $(sectionTo).offset().top - 74
@@ -7,7 +8,7 @@ $('a').click(function() {
     }, 1000);
 });
 
-
+//add main header shadow on scroll
 $(window).scroll(function() {    
     let scroll = $(window).scrollTop();
     if (scroll > 0) {
@@ -16,3 +17,11 @@ $(window).scroll(function() {
         $("#main-header").removeClass("nav-shadow");
     }
 });
+
+//add main header shadow on hamburger click
+$(".navbar-toggler").click(function() {
+    let scroll = $(window).scrollTop();
+    if (scroll < 1) {
+        $("#main-header").toggleClass("nav-shadow");
+    } 
+})
