@@ -1,5 +1,5 @@
 //smooth scroll to section on nav click
-$('a').click(function() {
+$("a[href*='#']").click(function() {
     let sectionTo = $(this).attr('href');
     let scrollAmount = sectionTo === '#hero' ? 0 : $(sectionTo).offset().top - 74
 
