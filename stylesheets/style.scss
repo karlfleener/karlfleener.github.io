@@ -59,6 +59,10 @@ h2 {
   font-size: 3em;
 }
 
+.xd {
+  color: #FF36C4;
+}
+
 #about p {
   font-size: 1.5em;
 }
@@ -67,30 +71,6 @@ footer i {
   font-size: 2em;
 }
 
-.project {
-  // border: 1px solid pink;
-  // box-shadow: 0 1px 6px 0 rgba(60,64,67,0.2), 0 1px 12px 4px rgba(60,64,67,0.1);
-}
-
-// a[href*='.pdf']:hover {
-//   color: $red;
-// }
-
-// a[href*='linkedin']:hover {
-//   color: $blue;
-// }
-
-// a[href*='angel']:hover {
-//   color: rgb(99, 99, 99);
-// }
-
-// a[href*='github']:hover {
-//   color: $green;
-// }
-
-// a[href*='gmail']:hover {
-//   color: $dark-red;
-// }
 
 //Bootstrap custom
 .navbar-light {
@@ -103,6 +83,10 @@ footer i {
 
     .nav-link:hover {
       color: $turq;
+    }
+
+    .nav-link:focus {
+      color: $black;
     }
   }  
   .navbar-toggler {
