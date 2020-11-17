@@ -56,8 +56,8 @@ footer i {
   font-size: 2em;
 }
 
+//Custom Bootstrap
 
-//Bootstrap custom
 .navbar-light {
   .navbar-nav {
 
@@ -77,13 +77,18 @@ footer i {
   }  
   .navbar-toggler {
     border: none;
+    transition: all 0.3s ease;
   }
+
+  .navbar-toggler:hover {
+        color: rgba(0,0,0,0.7);
+  }
+
 }
+
 .navbar-toggler:focus {
   outline: none;
 }
-
-
 
 a {
   color: $black;

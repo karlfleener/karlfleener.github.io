@@ -45,7 +45,10 @@ footer i {
 .navbar-light .navbar-nav .nav-link:focus {
   color: #191414; }
 .navbar-light .navbar-toggler {
-  border: none; }
+  border: none;
+  transition: all 0.3s ease; }
+.navbar-light .navbar-toggler:hover {
+  color: rgba(0, 0, 0, 0.7); }
 
 .navbar-toggler:focus {
   outline: none; }
