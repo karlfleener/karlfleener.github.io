@@ -108,3 +108,16 @@ a:hover {
 @media only screen and (min-width : 1200px) {
     .container { max-width: 1500px; }
 }
+
+@media only screen and (max-width : 576px) {
+  h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2em;
+}
+}
+
