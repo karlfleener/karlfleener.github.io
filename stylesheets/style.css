@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: #fff;
-  color: #191414;
+  color: #121212;
   padding-top: 74px;
   font-size: 1em; }
 
@@ -40,12 +40,12 @@ footer i {
   font-size: 2em; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #191414;
+  color: #121212;
   transition: all 0.3s ease; }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #0075A2; }
 .navbar-light .navbar-nav .nav-link:focus {
-  color: #191414; }
+  color: #121212; }
 .navbar-light .navbar-toggler {
   border: none;
   transition: all 0.3s ease; }
@@ -56,7 +56,7 @@ footer i {
   outline: none; }
 
 a {
-  color: #191414;
+  color: #121212;
   transition: all 0.3s ease; }
 
 a:hover {
