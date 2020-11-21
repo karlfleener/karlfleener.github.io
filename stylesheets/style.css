@@ -5,7 +5,7 @@ body {
   padding-top: 74px;
   font-size: 1em; }
 
-#logo img {
+.nav-logo {
   width: 48px;
   height: 48px; }
 
@@ -18,11 +18,17 @@ body {
 
 h1 {
   font-weight: bold;
-  font-size: 3.5em; }
+  font-size: 2em; }
 
 h2 {
   font-weight: 500;
-  font-size: 3em; }
+  font-size: 1.8em; }
+
+h4 {
+  font-size: 1.2em; }
+
+.body-logo {
+  max-width: 250px; }
 
 .skills i,
 .skills svg {
@@ -30,9 +36,6 @@ h2 {
 
 .xd {
   color: #FF36C4; }
-
-#about p {
-  font-size: 1.5em; }
 
 footer i {
   font-size: 2em; }
@@ -65,16 +68,48 @@ a:hover {
 .card {
   border: none; }
 
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1500px; } }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) {
   h1 {
-    font-weight: bold;
     font-size: 2.5em; }
 
   h2 {
-    font-weight: 500;
-    font-size: 2em; } }
+    font-size: 2.2em; }
+
+  h4 {
+    font-size: 1.4em; } }
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 2.5em; }
+
+  h4 {
+    font-size: 1.5em; }
+
+  .profile-img {
+    min-width: 250px; } }
+@media only screen and (min-width: 992px) {
+  #about p {
+    font-size: 1.15em; } }
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1500px; }
+
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 2.5em; }
+
+  h5 {
+    font-size: 1.5em; }
+
+  #about p {
+    font-size: 1.3em; }
+
+  .profile-img {
+    min-width: inherit;
+    max-width: 315px; } }
 
 /*# sourceMappingURL=style.css.map */
