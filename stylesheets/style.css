@@ -29,6 +29,15 @@ h4 {
 .body-logo {
   max-width: 250px; }
 
+a {
+  color: #121212;
+  transition: all 0.3s ease; }
+
+a:hover {
+  color: #0075A2;
+  text-decoration: none;
+  cursor: pointer; }
+
 .skills i,
 .skills svg {
   font-size: 3em; }
@@ -36,8 +45,9 @@ h4 {
 .xd {
   color: #FF36C4; }
 
-footer i {
-  font-size: 2em; }
+footer a {
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.5); }
 
 .navbar-light .navbar-nav .nav-link {
   color: #121212;
@@ -54,15 +64,6 @@ footer i {
 
 .navbar-toggler:focus {
   outline: none; }
-
-a {
-  color: #121212;
-  transition: all 0.3s ease; }
-
-a:hover {
-  color: #0075A2;
-  text-decoration: none;
-  cursor: pointer; }
 
 .card {
   border: none;

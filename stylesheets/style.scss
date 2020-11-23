@@ -40,6 +40,17 @@ h4 {
   max-width: 250px;
 }
 
+a {
+  color: $black;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: $turq;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .skills i,
 .skills svg {
   font-size: 3em;
@@ -49,9 +60,11 @@ h4 {
   color: #FF36C4;
 }
 
-footer i {
+footer a {
   font-size: 2em;
+  color: rgba(0, 0, 0, 0.5);
 }
+
 
 //Custom Bootstrap
 
@@ -87,34 +100,11 @@ footer i {
   outline: none;
 }
 
-a {
-  color: $black;
-  transition: all 0.3s ease;
-}
-
-a:hover {
-  color: $turq;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 .card {
   border: none;
   min-width: 340px;
 }
-
-
-// .card-columns {
-//   @include media-breakpoint-only(sm) {
-//     column-count: 1;
-//   }
-//   @include media-breakpoint-only(md) {
-//     column-count: 2;
-//   }
-//   @include media-breakpoint-only(lg) {
-//     column-count: 3;
-//   }
-// }
 
 @media only screen and (min-width : 576px) {
  h1 {
