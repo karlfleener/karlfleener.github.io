@@ -50,7 +50,7 @@ footer i {
   border: none;
   transition: all 0.3s ease; }
 .navbar-light .navbar-toggler:hover {
-  color: rgba(0, 0, 0, 0.7); }
+  background-color: #eeeeee; }
 
 .navbar-toggler:focus {
   outline: none; }
