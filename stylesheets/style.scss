@@ -78,7 +78,7 @@ footer i {
   }
 
   .navbar-toggler:hover {
-        color: rgba(0,0,0,0.7);
+    color: rgba(0,0,0,0.7);
   }
 
 }
@@ -100,7 +100,21 @@ a:hover {
 
 .card {
   border: none;
+  min-width: 340px;
 }
+
+
+// .card-columns {
+//   @include media-breakpoint-only(sm) {
+//     column-count: 1;
+//   }
+//   @include media-breakpoint-only(md) {
+//     column-count: 2;
+//   }
+//   @include media-breakpoint-only(lg) {
+//     column-count: 3;
+//   }
+// }
 
 @media only screen and (min-width : 576px) {
  h1 {
@@ -137,6 +151,10 @@ a:hover {
 @media only screen and (min-width : 992px) {
   #about p {
     font-size: 1.15em;
+  }
+  
+  .card {
+    max-width: 450px;
   }
 }
 

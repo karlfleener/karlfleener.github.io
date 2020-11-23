@@ -65,7 +65,8 @@ a:hover {
   cursor: pointer; }
 
 .card {
-  border: none; }
+  border: none;
+  min-width: 340px; }
 
 @media only screen and (min-width: 576px) {
   h1 {
@@ -90,7 +91,10 @@ a:hover {
     min-width: 250px; } }
 @media only screen and (min-width: 992px) {
   #about p {
-    font-size: 1.15em; } }
+    font-size: 1.15em; }
+
+  .card {
+    max-width: 450px; } }
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1500px; }
