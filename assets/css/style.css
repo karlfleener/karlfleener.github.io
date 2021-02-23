@@ -1,7 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #fff;
-  color: #121212;
+  color: #484848;
   padding-top: 74px;
   font-size: 1em;
 }
@@ -21,14 +21,18 @@ body {
   transition: all 0.5s ease;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #242424;
+}
+
 h1 {
-  font-weight: bold;
-  font-size: 2em;
+  font-weight: 700;
+  font-size: 1.9em;
 }
 
 h2 {
   font-weight: 500;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 h3 {
@@ -40,13 +44,13 @@ h3 {
 }
 
 a {
-  color: #121212;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  color: #727272;
 }
 
 a:hover {
-  color: #0075A2;
+  color: #484848;
   text-decoration: none;
   cursor: pointer;
 }
@@ -62,21 +66,20 @@ a:hover {
 
 footer a {
   font-size: 2em;
-  color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #121212;
+  color: #606060;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #0075A2;
+  color: #242424;
 }
 
 .navbar-light .navbar-nav .nav-link:focus {
-  color: #121212;
+  color: #242424;
 }
 
 .navbar-light .navbar-toggler {
@@ -98,9 +101,14 @@ footer a {
   min-width: 340px;
 }
 
+.card-img-top {
+  border-radius: 0;
+  height: 266px;
+}
+
 @media only screen and (min-width: 576px) {
   h1 {
-    font-size: 2.5em;
+    font-size: 2.4em;
   }
   h2 {
     font-size: 2.2em;
@@ -108,11 +116,14 @@ footer a {
   h3 {
     font-size: 1.4em;
   }
+  .card-img-top {
+    height: 255px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 3em;
+    font-size: 2.8em;
   }
   h2 {
     font-size: 2.5em;
@@ -126,11 +137,11 @@ footer a {
 }
 
 @media only screen and (min-width: 992px) {
-  #about p {
-    font-size: 1.15em;
-  }
   .card {
     max-width: 450px;
+  }
+  .card-img-top {
+    height: 225px;
   }
 }
 
@@ -139,16 +150,10 @@ footer a {
     max-width: 1500px;
   }
   h1 {
-    font-size: 3.5em;
+    font-size: 3em;
   }
   h2 {
     font-size: 2.5em;
-  }
-  h5 {
-    font-size: 1.5em;
-  }
-  #about p {
-    font-size: 1.3em;
   }
   .profile-img {
     min-width: inherit;
